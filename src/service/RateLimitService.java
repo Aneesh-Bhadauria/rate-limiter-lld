@@ -38,5 +38,4 @@ public class RateLimitService {
 
         return rateLimiter.allowRequest(user.getUserId());
     }
-
 }
